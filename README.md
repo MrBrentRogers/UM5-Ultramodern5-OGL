@@ -2,9 +2,9 @@
  Ultramodern5 for D&D5e by Dias Ex Machina for FoundryVTT.com
 https://www.drivethrurpg.com/product/196905/Ultramodern5SRD-OGL-5th-Edition
 
-    url: "https://restenford.com/",
-    manifest: "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json",
-    download: "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.1/um5-ultramodern5-ogl.zip"
+    url: https://restenford.com/
+    manifest: https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json
+    download: https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.1/um5-ultramodern5-ogl.zip
 
 Compendiums:
 - UM5 Ch.1: Skills, Proficiencies, & Feats
