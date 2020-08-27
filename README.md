@@ -2,6 +2,8 @@
  Ultramodern5 for D&D5e by Dias Ex Machina for FoundryVTT.com
 https://www.drivethrurpg.com/product/196905/Ultramodern5SRD-OGL-5th-Edition
 
+Ultramodern OGL adds modern and future tech, including a new variant Human, Classes, skills, and equipment to the D&D5e system.
+
     url: https://restenford.com/
     manifest: https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json
     download: https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.1/um5-ultramodern5-ogl.zip
