@@ -2,8 +2,8 @@
    "name": "mod-ultramodern-ogl",   
    "title": "Ultramodern5 OGL",   
    "description": "Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games",   
-   "author": "VAD",
-   "version": "0.0.1",
+   "author": "VAD#3906",
+   "version": "0.1.1",
    "minimumCoreVersion": "0.5.0",
    "compatibleCoreVersion":"0.6.5",
    "packs": [
@@ -20,6 +20,13 @@
       "path": "packs/um5-backgrounds.db",
       "entity": "Item",
       "module": "mod-ultramodern-ogl"
+    },
+    {
+      "name": "um5-tables",
+      "label": "UM5 Ch.2: Lifepath & Life Events",
+      "path": "packs/um5-lifetables.db",
+      "entity": "RollTable",
+      "module": "mod-shareddata"
     },
     {
       "name": "um5-ladders",
@@ -105,13 +112,6 @@
       "entity": "Item",
       "module": "mod-ultramodern-ogl"
     },
-     {
-      "name": "um5-tables",
-      "label": "UM5 Ch.2: Lifepath & Life Events",
-      "path": "packs/um5-lifetables.db",
-      "entity": "RollTable",
-      "module": "mod-shareddata"
-    },
     {
       "name": "Modern Locations",
       "label": "UM5 Modern Locations",
@@ -119,5 +119,8 @@
       "entity": "Scene",
       "module": "mod-shareddata"        
     }
-   ]
+   ],
+    "url": "https://restenford.com/",
+    "manifest": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/blob/master/module.json",
+    "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.1/um5-ultramodern5-ogl.zip"
  }
