@@ -1,4 +1,8 @@
 # um5-ultramodern-ogl
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MrBrentRogers/UM5-Ultramodern5-OGL) 
+![GitHub Releases](https://img.shields.io/github/downloads/MrBrentRogers/UM5-Ultramodern5-OGL/latest/total)
+![GitHub All Releases](https://img.shields.io/github/downloads/MrBrentRogers/UM5-Ultramodern5-OGL/total?label=downloads) 
+
 Provides support for the UM5 SRD by extending the dnd5e system. UM5 is a SRD extension for 5e created by Dias Ex Machina Games, https://www.drivethrurpg.com/product/196905/Ultramodern5SRD-OGL-5th-Edition
 
 Ultramodern OGL adds modern and future tech, including a new variant human, classes, skills, and equipment to the D&D5e system.
