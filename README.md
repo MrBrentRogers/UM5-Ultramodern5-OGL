@@ -12,7 +12,7 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
     manifest: https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json
     download: https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.1/um5-ultramodern5-ogl.zip
 
-Compendiums:
+## Compendiums:
 - UM5 Ch.1: Skills, Proficiencies, & Feats
 - UM5 Ch.2: Backgrounds
 - UM5 Ch.2: Lifepath & Life Events
