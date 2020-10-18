@@ -30,7 +30,12 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 
 
 ## Releases:
-2020/08/27 - Initial release
+v0.1 - 2020/08/27 - Initial release
+v0.2 - Updates:
+- Formatting of all written materials
+- Additional scenes (from 12 to about 37)
+- Additional assets (characters, vehicles, mechs)
+- All images converted to *.webp
 
 ## Software Versions & Module Incompatibilities
 <b>Foundry VTT:</b> Tested on 0.6.6<br>
