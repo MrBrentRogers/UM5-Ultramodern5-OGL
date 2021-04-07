@@ -3,10 +3,35 @@
    "title": "Ultramodern5 OGL",   
    "description": "Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games",   
    "author": "VAD#3906",
-   "version": "0.2.1",
-   "minimumCoreVersion": "0.5.0",
-   "compatibleCoreVersion":"0.6.6",
-    "system": "dnd5e",
+   "version": "0.2.2",
+   "system": "dnd5e",
+   "type": "module",
+   "socket": true,
+   "includes": [
+     "./assets/**",
+     "./lang/**",
+     "./scripts/**",
+     "./styles/**",
+     "./templates/**",
+     "./module.json",
+     "./README.md",
+     "./icons/**",
+     "./packs/**"
+   ],
+   "media": [
+     {
+       "type": "icon",
+       "location": ""
+     },
+     {
+       "type": "cover",
+       "location": ""
+     },
+     {
+       "type": "screenshot",
+       "location": ""
+     }
+   ],
    "packs": [
     {
       "name": "um5-feats",
@@ -123,5 +148,18 @@
    ],
     "url": "https://restenford.com/",
     "manifest": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json",
-    "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.2/um5-ultramodern-ogl.zip"
-   }
+    "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.2/um5-ultramodern-ogl.zip",
+    "minimumCoreVersion": "0.7.6",
+    "compatibleCoreVersion": "0.7.9",
+    "changelog": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/changelog.md",
+    "bugs": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/issues",
+    "allowBugReporter": true,
+    "languages": [
+    ],
+    "scripts": [
+    ],
+    "esmodules": [
+    ],
+    "styles": [
+    ]
+  }
