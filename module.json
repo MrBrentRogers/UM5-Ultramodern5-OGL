@@ -1,9 +1,11 @@
 {   
-   "name": "mod-ultramodern-ogl",   
+   "name": "um5-ultramodern-ogl",   
    "title": "Ultramodern5 OGL",   
    "description": "Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games",   
    "author": "VAD#3906",
    "version": "0.3",
+    "minimumCoreVersion": "8",
+    "compatibleCoreVersion": "9",
    "system": "dnd5e",
    "type": "module",
    "socket": true,
@@ -38,119 +40,117 @@
       "label": "UM5 Ch.1: Skills, Proficiencies, & Feats",
       "path": "packs/um5-feats.db",
       "entity": "Item",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-backgrounds",
       "label": "UM5 Ch.2: Backgrounds",
       "path": "packs/um5-backgrounds.db",
       "entity": "Item",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-tables",
       "label": "UM5 Ch.2: Lifepath & Life Events",
       "path": "packs/um5-lifetables.db",
       "entity": "RollTable",
-      "module": "mod-shareddata"
+      "module": "um5-shareddata"
     },
     {
       "name": "um5-ladders",
       "label": "UM5 Ch.3: Ladders",
       "path": "packs/um5-ladders.db",
       "entity": "Item",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-classes",
       "label": "UM5 Ch.4: Classes",
       "path": "packs/um5-classes.db",
       "entity": "Item",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-classfeatures",
       "label": "UM5 Ch.4 Class Features",
       "path": "packs/um5-classfeatures.db",
       "entity": "Item",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-archetypes",
       "label": "UM5 Ch.5: Archetypes",
       "path": "packs/um5-archetypes.db",
       "entity": "Item",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-rules",
       "label": "UM5 Ch.6: New Rules Summary",
       "path": "packs/um5-rules.db",
       "entity": "JournalEntry",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-weaponproperties",
       "label": "UM5 Ch.6: New Weapon Properties",
       "path": "packs/um5-weaponproperties.db",
       "entity": "JournalEntry",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-equipment",
       "label": "UM5 Ch.6: Equipment",
       "path": "packs/um5-equipment.db",
       "entity": "Item",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-vehicles",
       "label": "UM5 Ch.6: Vehicles",
       "path": "packs/um5-vehicles.db",
       "entity": "Actor",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-mechs",
       "label": "UM5 Ch.6: Exo-Armor (Mechs)",
       "path": "packs/um5-mechs.db",
       "entity": "Actor",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-characters",
       "label": "UM5 Characters",
       "path": "packs/um5-characters.db",
       "entity": "Actor",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-antagonists",
       "label": "UM5 Ch.7: Antagonists & Enemies",
       "path": "packs/um5-antagonists.db",
       "entity": "Actor",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "um5-antagonisttraits",
       "label": "UM5 Ch.7: Antagonist Traits",
       "path": "packs/um5-antagonisttraits.db",
       "entity": "Item",
-      "module": "mod-ultramodern-ogl"
+      "module": "um5-ultramodern-ogl"
     },
     {
       "name": "Modern Locations",
       "label": "UM5 Modern Locations",
       "path": "packs/modernscenes.db",
       "entity": "Scene",
-      "module": "mod-shareddata"        
+      "module": "um5-shareddata"        
     }
    ],
     "url": "https://restenford.com/",
     "manifest": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json",
     "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.3/um5-ultramodern-ogl.zip",
-    "minimumCoreVersion": "8",
-    "compatibleCoreVersion": "9",
     "changelog": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/changelog.md",
     "bugs": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/issues",
     "allowBugReporter": true,
