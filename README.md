@@ -10,7 +10,7 @@ Ultramodern OGL adds modern and future tech, including a new variant human, clas
 This module is wholly unaffiliated with Dias Ex Machina Games.
 
     manifest: https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json
-    download: https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.2/um5-ultramodern5-ogl.zip
+    download: https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.3/um5-ultramodern5-ogl.zip
 
 ## Compendiums:
 - UM5 Ch.1: Skills, Proficiencies, & Feats
