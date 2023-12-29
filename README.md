@@ -47,6 +47,15 @@ If you have any suggestions or bugs to report, feel free to contact me on Discor
 ## Credits
 <b>Author:</b> Brent Rogers (VAD#3906 on Discord)<br>
 
+## Assets
+### RPG Map Share
+site: https://rpgmapshare.com/
+license: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+### 2-Minute Tabletop
+site: https://www.patreon.com/2minutetabletop
+license: https://creativecommons.org/licenses/by-nc/4.0/
+
 ## Abandonment
 Abandoned modules are a (potential) problem for Foundry, because users and/or other modules might rely on abandoned modules, which might break in future Foundry updates.<br>
 I consider this module abandoned if all of the below cases apply:
