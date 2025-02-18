@@ -1,0 +1,14 @@
+2025/02/17-13:28:25.434 3a04 Recovering log #441
+2025/02/17-13:28:25.483 3a04 Delete type=0 #441
+2025/02/17-13:28:25.484 3a04 Delete type=3 #439
+2025/02/17-21:41:26.516 29cc Level-0 table #446: started
+2025/02/17-21:41:26.561 29cc Level-0 table #446: 3865 bytes OK
+2025/02/17-21:41:26.583 29cc Delete type=0 #444
+2025/02/17-21:41:26.692 29cc Manual compaction at level-0 from '!actors!0F5SNIFnAlRJYf9I' @ 72057594037927935 : 1 .. '!actors.items!yYX1eXW5MBrWjliW.yYTFiBQuY6jxXCuB' @ 0 : 0; will stop at '!actors!73FtKx31uuE4uBbG' @ 668 : 1
+2025/02/17-21:41:26.692 29cc Compacting 1@0 + 1@1 files
+2025/02/17-21:41:26.827 29cc Generated table #447@0: 310 keys, 572915 bytes
+2025/02/17-21:41:26.827 29cc Compacted 1@0 + 1@1 files => 572915 bytes
+2025/02/17-21:41:26.910 29cc compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/02/17-21:41:26.911 29cc Delete type=2 #406
+2025/02/17-21:41:26.912 29cc Delete type=2 #446
+2025/02/17-21:41:27.075 29cc Manual compaction at level-0 from '!actors!73FtKx31uuE4uBbG' @ 668 : 1 .. '!actors.items!yYX1eXW5MBrWjliW.yYTFiBQuY6jxXCuB' @ 0 : 0; will stop at (end)

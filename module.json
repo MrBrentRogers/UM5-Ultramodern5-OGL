@@ -1,165 +1,302 @@
-{   
-   "name": "um5-ultramodern-ogl",   
-   "title": "Ultramodern5 OGL",   
-   "description": "Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games",   
-   "author": "VAD#3906",
-   "version": "0.3",
-    "minimumCoreVersion": "8",
-    "compatibleCoreVersion": "9",
-   "system": "dnd5e",
-   "type": "module",
-   "socket": true,
-   "includes": [
-     "./assets/**",
-     "./lang/**",
-     "./scripts/**",
-     "./styles/**",
-     "./templates/**",
-     "./module.json",
-     "./README.md",
-     "./icons/**",
-     "./packs/**"
-   ],
-   "media": [
-     {
-       "type": "icon",
-       "location": ""
-     },
-     {
-       "type": "cover",
-       "location": ""
-     },
-     {
-       "type": "screenshot",
-       "location": ""
-     }
-   ],
-   "packs": [
+{
+  "id": "um5-ultramodern-ogl",
+  "title": "Ultramodern5 OGL",
+  "description": "Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games",
+  "authors": [
+    {
+      "name": "VAD",
+      "url": "https://restenford.com/",
+      "discord": "vad.bad",
+      "flags": {}
+    }
+  ],
+  "version": "2.25",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "socket": true,
+  "media": [
+    {
+      "type": "icon",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "cover",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "screenshot",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "3",
+          "verified": "4.3.2"
+        }
+      }
+    ]
+  },
+  "packs": [
     {
       "name": "um5-feats",
-      "label": "UM5 Ch.1: Skills, Proficiencies, & Feats",
-      "path": "packs/um5-feats.db",
-      "entity": "Item",
-      "module": "um5-ultramodern-ogl"
+      "label": "Skills, Proficiencies, & Feats",
+      "path": "packs/um5-feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-backgrounds",
-      "label": "UM5 Ch.2: Backgrounds",
-      "path": "packs/um5-backgrounds.db",
-      "entity": "Item",
-      "module": "um5-ultramodern-ogl"
+      "label": "UM5 Backgrounds",
+      "path": "packs/um5-backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-tables",
-      "label": "UM5 Ch.2: Lifepath & Life Events",
-      "path": "packs/um5-lifetables.db",
-      "entity": "RollTable",
-      "module": "um5-shareddata"
+      "label": "Lifepath & Life Events",
+      "path": "packs/um5-lifetables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-ladders",
-      "label": "UM5 Ch.3: Ladders",
-      "path": "packs/um5-ladders.db",
-      "entity": "Item",
-      "module": "um5-ultramodern-ogl"
+      "label": "Ladders",
+      "path": "packs/um5-ladders",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-classes",
-      "label": "UM5 Ch.4: Classes",
-      "path": "packs/um5-classes.db",
-      "entity": "Item",
-      "module": "um5-ultramodern-ogl"
-    },
-    {
-      "name": "um5-classfeatures",
-      "label": "UM5 Ch.4 Class Features",
-      "path": "packs/um5-classfeatures.db",
-      "entity": "Item",
-      "module": "um5-ultramodern-ogl"
+      "label": "Classes",
+      "path": "packs/um5-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-archetypes",
-      "label": "UM5 Ch.5: Archetypes",
-      "path": "packs/um5-archetypes.db",
-      "entity": "Item",
-      "module": "um5-ultramodern-ogl"
-    },
-    {
-      "name": "um5-rules",
-      "label": "UM5 Ch.6: New Rules Summary",
-      "path": "packs/um5-rules.db",
-      "entity": "JournalEntry",
-      "module": "um5-ultramodern-ogl"
+      "label": "Archetypes",
+      "path": "packs/um5-archetypes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-weaponproperties",
-      "label": "UM5 Ch.6: New Weapon Properties",
-      "path": "packs/um5-weaponproperties.db",
-      "entity": "JournalEntry",
-      "module": "um5-ultramodern-ogl"
+      "label": "New Weapon Properties",
+      "path": "packs/um5-weaponproperties",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-equipment",
-      "label": "UM5 Ch.6: Equipment",
-      "path": "packs/um5-equipment.db",
-      "entity": "Item",
-      "module": "um5-ultramodern-ogl"
+      "label": "Equipment",
+      "path": "packs/um5-equipment",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-vehicles",
-      "label": "UM5 Ch.6: Vehicles",
-      "path": "packs/um5-vehicles.db",
-      "entity": "Actor",
-      "module": "um5-ultramodern-ogl"
+      "label": "Vehicles",
+      "path": "packs/um5-vehicles",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-mechs",
-      "label": "UM5 Ch.6: Exo-Armor (Mechs)",
-      "path": "packs/um5-mechs.db",
-      "entity": "Actor",
-      "module": "um5-ultramodern-ogl"
+      "label": "Exo-Armor (Mechs)",
+      "path": "packs/um5-mechs",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-characters",
       "label": "UM5 Characters",
-      "path": "packs/um5-characters.db",
-      "entity": "Actor",
-      "module": "um5-ultramodern-ogl"
+      "path": "packs/um5-characters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-antagonists",
-      "label": "UM5 Ch.7: Antagonists & Enemies",
-      "path": "packs/um5-antagonists.db",
-      "entity": "Actor",
-      "module": "um5-ultramodern-ogl"
+      "label": "Antagonists & Enemies",
+      "path": "packs/um5-antagonists",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "um5-antagonisttraits",
-      "label": "UM5 Ch.7: Antagonist Traits",
-      "path": "packs/um5-antagonisttraits.db",
-      "entity": "Item",
-      "module": "um5-ultramodern-ogl"
+      "label": "Antagonist Traits",
+      "path": "packs/um5-antagonisttraits",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "Modern Locations",
-      "label": "UM5 Modern Locations",
-      "path": "packs/modernscenes.db",
-      "entity": "Scene",
-      "module": "um5-shareddata"        
+      "name": "ultramodern5-oglsrd",
+      "label": "Ultramodern5 OGL/SRD",
+      "path": "packs/ultramodern5-oglsrd",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "um5-spells",
+      "label": "UM5 Spells",
+      "path": "packs/um5-spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "um5-macros",
+      "label": "UM5 Macros",
+      "path": "packs/um5-macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "modern-locations",
+      "label": "Modern Locations",
+      "path": "packs/modern-locations",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
-   ],
-    "url": "https://restenford.com/",
-    "manifest": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json",
-    "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.3/um5-ultramodern-ogl.zip",
-    "changelog": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/changelog.md",
-    "bugs": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/issues",
-    "allowBugReporter": true,
-    "languages": [
-    ],
-    "scripts": [
-    ],
-    "esmodules": [
-    ],
-    "styles": [
-    ]
-  }
+  ],
+  "packFolders": [
+    {
+      "name": "DEM Ultramodern5 OGL",
+      "sorting": "m",
+      "color": "#51534e",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Antagonists",
+          "sorting": "m",
+          "color": "#6f7269",
+          "packs": [
+            "um5-characters",
+            "um5-antagonists",
+            "um5-antagonisttraits"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Character Features",
+          "sorting": "m",
+          "color": "#6f7269",
+          "packs": [
+            "um5-archetypes",
+            "um5-backgrounds",
+            "um5-classes",
+            "um5-feats",
+            "um5-ladders",
+            "um5-spells",
+            "um5-tables"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Equipment",
+          "sorting": "m",
+          "color": "#6f7269",
+          "packs": [
+            "um5-equipment",
+            "um5-vehicles",
+            "um5-mechs"
+          ],
+          "folders": []
+        },
+        {
+          "name": "UM5 Rules & DevOp",
+          "sorting": "m",
+          "color": "#6f7269",
+          "packs": [
+            "ultramodern5-oglsrd",
+            "um5-weaponproperties",
+            "modern-locations"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "url": "https://restenford.com/",
+  "manifest": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json",
+  "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v0.3/um5-ultramodern-ogl.zip",
+  "changelog": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/changelog.md",
+  "bugs": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/issues"
+}

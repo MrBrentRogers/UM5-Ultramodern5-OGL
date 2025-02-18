@@ -1,0 +1,7 @@
+2025/02/17-21:43:17.108 232c Recovering log #473
+2025/02/17-21:43:17.139 232c Delete type=0 #473
+2025/02/17-21:43:17.139 232c Delete type=3 #471
+2025/02/17-21:56:31.576 29cc Level-0 table #478: started
+2025/02/17-21:56:31.576 29cc Level-0 table #478: 0 bytes OK
+2025/02/17-21:56:31.592 29cc Delete type=0 #476
+2025/02/17-21:56:31.592 29cc Manual compaction at level-0 from '!folders!24oAS6IvVpIavz2W' @ 72057594037927935 : 1 .. '!items.effects!zTAd4hYizHQKGb0l.1bjadPFQF0j6SKSm' @ 0 : 0; will stop at (end)

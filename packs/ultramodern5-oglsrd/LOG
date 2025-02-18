@@ -1,0 +1,7 @@
+2025/02/17-21:43:17.790 28f0 Recovering log #443
+2025/02/17-21:43:17.822 28f0 Delete type=0 #443
+2025/02/17-21:43:17.822 28f0 Delete type=3 #441
+2025/02/17-21:56:31.842 29cc Level-0 table #449: started
+2025/02/17-21:56:31.842 29cc Level-0 table #449: 0 bytes OK
+2025/02/17-21:56:31.858 29cc Delete type=0 #447
+2025/02/17-21:56:31.901 29cc Manual compaction at level-0 from '!folders!G5oYE4gf5WBaYlAo' @ 72057594037927935 : 1 .. '!journal.pages!wjqWO7Ghy6VtY2lQ.wrlptniwbN6LmNIC' @ 0 : 0; will stop at (end)

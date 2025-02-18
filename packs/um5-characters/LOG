@@ -1,0 +1,7 @@
+2025/02/17-21:43:17.585 28f0 Recovering log #445
+2025/02/17-21:43:17.630 28f0 Delete type=0 #445
+2025/02/17-21:43:17.630 28f0 Delete type=3 #443
+2025/02/17-21:56:31.718 29cc Level-0 table #451: started
+2025/02/17-21:56:31.718 29cc Level-0 table #451: 0 bytes OK
+2025/02/17-21:56:31.742 29cc Delete type=0 #449
+2025/02/17-21:56:31.792 29cc Manual compaction at level-0 from '!actors!0F5SNIFnAlRJYf9I' @ 72057594037927935 : 1 .. '!actors.items!yYX1eXW5MBrWjliW.yYTFiBQuY6jxXCuB' @ 0 : 0; will stop at (end)
