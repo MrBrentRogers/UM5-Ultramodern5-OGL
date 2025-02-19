@@ -14,20 +14,23 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 
 ## Compendiums:
 - UM5 Ch.1: Skills, Proficiencies, & Feats
-- UM5 Ch.2: Backgrounds
+- UM5 Ch.2: Backgrounds - v.2.0 updates
 - UM5 Ch.2: Lifepath & Life Events
-- UM5 Ch.3: Ladders
-- UM5 Ch.4: Classes
-- UM5 Ch.5: Archetypes
+- UM5 Ch.3: Ladders - v.2.0 updates
+- UM5 Ch.4: Classes - v.2.0 updates
+Class Features - removed (from v.1.1)
+- UM5 Ch.5: Archetypes v.2.0 updates
 - UM5 Ch.6: New Rules Summary
-- UM5 Ch.6: New Weapon Properties
-- UM5 Ch.6: Equipment
-- UM5 Ch.6: Vehicles
+- UM5 Ch.6: New Weapon Properties - legacy (from v.1.1)
+- UM5 Ch.6: Equipment - v.2.0 updates
+- UM5 Ch.6: Vehicles  - v.2.0 updates
 - UM5 Ch.6: Exo-Armor (Mechs)
-- UM5 Ch.7: Antagonists & Enemies
-- UM5 Ch.7: Antagonist Traits
+UM5 Characters - legacy (from v.1.1)
+UM5 Spells - new (from 2.0)
+UM5 Macros - new (from 2.0)
+- UM5 Ch.7: Antagonists & Enemies - v.2.0 updates
+- UM5 Ch.7: Antagonist Traits - v.2.0 updates
 - UM5 Modern Locations
-
 
 ## Releases:
 v0.1 - 2020/08/27 - Initial release
@@ -36,25 +39,19 @@ v0.2 - Updates:
 - Additional scenes (from 12 to about 37)
 - Additional assets (characters, vehicles, mechs)
 - All images converted to *.webp
+v.3. - 2025
+- updated to Ultramodern5 OGL/SRD(2.0)
 
 ## Software Versions & Module Incompatibilities
-<b>Foundry VTT:</b> Tested on 0.6.6<br>
+<b>Foundry VTT:</b> 12.331<br>
+<b>DND5e"</b> 4.1.2
 <b>Module Incompatibilities:</b> None known.<br>
 
 ## Feedback
-If you have any suggestions or bugs to report, feel free to contact me on Discord (VAD#3906), or send me an email: rogersmrb+foundryvtt@gmail.com.
+If you have any suggestions or bugs to report, feel free to contact me on Discord (VAD.bad), or send me an email: rogersmrb+foundryvtt@gmail.com.
 
 ## Credits
-<b>Author:</b> Brent Rogers (VAD#3906 on Discord)<br>
-
-## Assets
-### RPG Map Share
-site: https://rpgmapshare.com/
-license: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-### 2-Minute Tabletop
-site: https://www.patreon.com/2minutetabletop
-license: https://creativecommons.org/licenses/by-nc/4.0/
+<b>Author:</b> Brent Rogers (VAD.bad on Discord)<br>
 
 ## Abandonment
 Abandoned modules are a (potential) problem for Foundry, because users and/or other modules might rely on abandoned modules, which might break in future Foundry updates.<br>

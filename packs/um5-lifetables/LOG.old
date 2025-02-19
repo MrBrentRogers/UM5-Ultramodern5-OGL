@@ -1,0 +1,7 @@
+2025/02/17-13:28:24.949 3a04 Recovering log #424
+2025/02/17-13:28:24.984 3a04 Delete type=0 #424
+2025/02/17-13:28:24.984 3a04 Delete type=3 #422
+2025/02/17-21:41:26.241 29cc Level-0 table #429: started
+2025/02/17-21:41:26.241 29cc Level-0 table #429: 0 bytes OK
+2025/02/17-21:41:26.257 29cc Delete type=0 #427
+2025/02/17-21:41:26.283 29cc Manual compaction at level-0 from '!folders!GLPri3RiXVT9pYJO' @ 72057594037927935 : 1 .. '!tables.results!zskKonuPLsChYmJI.yNPgu3g2xzaMHECy' @ 0 : 0; will stop at (end)

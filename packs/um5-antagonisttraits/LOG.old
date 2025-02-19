@@ -1,0 +1,7 @@
+2025/02/17-13:28:25.555 47a8 Recovering log #472
+2025/02/17-13:28:25.591 47a8 Delete type=0 #472
+2025/02/17-13:28:25.592 47a8 Delete type=3 #470
+2025/02/17-21:41:26.584 29cc Level-0 table #477: started
+2025/02/17-21:41:26.584 29cc Level-0 table #477: 0 bytes OK
+2025/02/17-21:41:26.608 29cc Delete type=0 #475
+2025/02/17-21:41:26.915 29cc Manual compaction at level-0 from '!folders!3lVNfLnDQwcvFdT4' @ 72057594037927935 : 1 .. '!items.effects!vDaFQFlw7d4UTMzc.uURzcGZQIybYt3mz' @ 0 : 0; will stop at (end)
