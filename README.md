@@ -18,16 +18,16 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 - UM5 Ch.2: Lifepath & Life Events
 - UM5 Ch.3: Ladders - v.2.0 updates
 - UM5 Ch.4: Classes - v.2.0 updates
-Class Features - removed (from v.1.1)
+- Class Features - removed (from v.1.1)
 - UM5 Ch.5: Archetypes v.2.0 updates
 - UM5 Ch.6: New Rules Summary
 - UM5 Ch.6: New Weapon Properties - legacy (from v.1.1)
 - UM5 Ch.6: Equipment - v.2.0 updates
 - UM5 Ch.6: Vehicles  - v.2.0 updates
 - UM5 Ch.6: Exo-Armor (Mechs)
-UM5 Characters - legacy (from v.1.1)
-UM5 Spells - new (from 2.0)
-UM5 Macros - new (from 2.0)
+- UM5 Characters - legacy (from v.1.1)
+- UM5 Spells - new (from 2.0)
+- UM5 Macros - new (from 2.0)
 - UM5 Ch.7: Antagonists & Enemies - v.2.0 updates
 - UM5 Ch.7: Antagonist Traits - v.2.0 updates
 - UM5 Modern Locations
