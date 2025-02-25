@@ -1,5 +1,5 @@
 {
-  "id": "um5-ultramodern-ogl",
+  "id": "UM5-Ultramodern5-OGL",
   "title": "Ultramodern5 OGL",
   "description": "Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games",
   "authors": [
@@ -10,7 +10,7 @@
       "flags": {}
     }
   ],
-  "version": "2.25",
+  "version": "2.26",
   "compatibility": {
     "minimum": "11",
     "verified": "12",
@@ -50,7 +50,7 @@
   "packs": [
     {
       "name": "um5-feats",
-      "label": "Skills, Proficiencies, & Feats",
+      "label": "Skills & Feats (UM5)",
       "path": "packs/um5-feats",
       "type": "Item",
       "system": "dnd5e",
@@ -61,7 +61,7 @@
     },
     {
       "name": "um5-backgrounds",
-      "label": "UM5 Backgrounds",
+      "label": "Backgrounds (UM5)",
       "path": "packs/um5-backgrounds",
       "type": "Item",
       "system": "dnd5e",
@@ -72,7 +72,7 @@
     },
     {
       "name": "um5-tables",
-      "label": "Lifepath & Life Events",
+      "label": "Lifepath & Life Events (UM5)",
       "path": "packs/um5-lifetables",
       "type": "RollTable",
       "system": "dnd5e",
@@ -83,7 +83,7 @@
     },
     {
       "name": "um5-ladders",
-      "label": "Ladders",
+      "label": "Ladders (UM5)",
       "path": "packs/um5-ladders",
       "type": "Item",
       "system": "dnd5e",
@@ -94,7 +94,7 @@
     },
     {
       "name": "um5-classes",
-      "label": "Classes",
+      "label": "Classes (UM5)",
       "path": "packs/um5-classes",
       "type": "Item",
       "system": "dnd5e",
@@ -105,7 +105,7 @@
     },
     {
       "name": "um5-archetypes",
-      "label": "Archetypes",
+      "label": "Archetypes (UM5)",
       "path": "packs/um5-archetypes",
       "type": "Item",
       "system": "dnd5e",
@@ -116,7 +116,7 @@
     },
     {
       "name": "um5-weaponproperties",
-      "label": "New Weapon Properties",
+      "label": "New Weapon Properties (UM5)",
       "path": "packs/um5-weaponproperties",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -127,7 +127,7 @@
     },
     {
       "name": "um5-equipment",
-      "label": "Equipment",
+      "label": "Equipment (UM5)",
       "path": "packs/um5-equipment",
       "type": "Item",
       "system": "dnd5e",
@@ -138,7 +138,7 @@
     },
     {
       "name": "um5-vehicles",
-      "label": "Vehicles",
+      "label": "Vehicles (UM5)",
       "path": "packs/um5-vehicles",
       "type": "Actor",
       "system": "dnd5e",
@@ -149,7 +149,7 @@
     },
     {
       "name": "um5-mechs",
-      "label": "Exo-Armor (Mechs)",
+      "label": "Exo-Armor (Mechs)(UM5)",
       "path": "packs/um5-mechs",
       "type": "Actor",
       "system": "dnd5e",
@@ -160,7 +160,7 @@
     },
     {
       "name": "um5-characters",
-      "label": "UM5 Characters",
+      "label": "Characters (UM5)",
       "path": "packs/um5-characters",
       "type": "Actor",
       "system": "dnd5e",
@@ -171,7 +171,7 @@
     },
     {
       "name": "um5-antagonists",
-      "label": "Antagonists & Enemies",
+      "label": "Antagonists & Enemies (UM5)",
       "path": "packs/um5-antagonists",
       "type": "Actor",
       "system": "dnd5e",
@@ -182,7 +182,7 @@
     },
     {
       "name": "um5-antagonisttraits",
-      "label": "Antagonist Traits",
+      "label": "Antagonist Traits (UM5)",
       "path": "packs/um5-antagonisttraits",
       "type": "Item",
       "system": "dnd5e",
@@ -204,7 +204,7 @@
     },
     {
       "name": "um5-spells",
-      "label": "UM5 Spells",
+      "label": "Spells (UM5)",
       "path": "packs/um5-spells",
       "type": "Item",
       "system": "dnd5e",
@@ -215,7 +215,7 @@
     },
     {
       "name": "um5-macros",
-      "label": "UM5 Macros",
+      "label": "Macros (UM5)",
       "path": "packs/um5-macros",
       "type": "Macro",
       "system": "dnd5e",
@@ -226,7 +226,7 @@
     },
     {
       "name": "modern-locations",
-      "label": "Modern Locations",
+      "label": "Modern Locations (UM5)",
       "path": "packs/modern-locations",
       "type": "Scene",
       "ownership": {
@@ -238,11 +238,31 @@
   ],
   "packFolders": [
     {
-      "name": "DEM Ultramodern5 OGL",
+      "name": "DEM Ultramodern5",
       "sorting": "m",
       "color": "#51534e",
       "packs": [],
       "folders": [
+        {
+          "name": "UM5 Rules & DevOp",
+          "sorting": "m",
+          "color": "#6f7269",
+          "packs": [
+            "ultramodern5-oglsrd",
+            "um5-weaponproperties",
+            "um5-macros"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Adventures & Scenes",
+          "sorting": "m",
+          "color": "#6f7269",
+          "packs": [
+            "modern-locations"
+          ],
+          "folders": []
+        },
         {
           "name": "Antagonists",
           "sorting": "m",
@@ -279,18 +299,7 @@
             "um5-mechs"
           ],
           "folders": []
-        },
-        {
-          "name": "UM5 Rules & DevOp",
-          "sorting": "m",
-          "color": "#6f7269",
-          "packs": [
-            "ultramodern5-oglsrd",
-            "um5-weaponproperties",
-            "modern-locations"
-          ],
-          "folders": []
-        }
+        }        
       ]
     }
   ],
