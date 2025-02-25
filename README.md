@@ -39,7 +39,7 @@ v0.2 - Updates:
 - Additional scenes (from 12 to about 37)
 - Additional assets (characters, vehicles, mechs)
 - All images converted to *.webp
-v.3. - 2025
+v.2025.2
 - updated to Ultramodern5 OGL/SRD(2.0)
 
 ## Software Versions & Module Incompatibilities
