@@ -171,7 +171,7 @@
     },
     {
       "name": "um5-antagonists",
-      "label": "Antagonists & Enemies (UM5)",
+      "label": "Antagonists (UM5)",
       "path": "packs/um5-antagonists",
       "type": "Actor",
       "system": "dnd5e",
