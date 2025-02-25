@@ -303,8 +303,8 @@
       ]
     }
   ],
-  "url": "https://restenford.com/",
-  "manifest": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/refs/heads/master/module.json",
+ "url": "https://restenford.com/",
+  "manifest": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json",
   "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v2025.02/UM5-Ultramodern5-OGL.zip",
   "changelog": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/changelog.md",
   "bugs": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/issues"
