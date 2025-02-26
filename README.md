@@ -1,4 +1,4 @@
-# um5-ultramodern-ogl
+# UM5-Ultramodern5-ogl
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MrBrentRogers/UM5-Ultramodern5-OGL) 
 ![GitHub Releases](https://img.shields.io/github/downloads/MrBrentRogers/UM5-Ultramodern5-OGL/latest/total)
 ![GitHub All Releases](https://img.shields.io/github/downloads/MrBrentRogers/UM5-Ultramodern5-OGL/total?label=downloads) 
@@ -33,13 +33,15 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 - UM5 Modern Locations
 
 ## Releases:
-v0.1 - 2020/08/27 - Initial release
-v0.2 - Updates:
+UM5-v0.1 - 2020/08/27 - Initial release
+UM5-v0.2 - 2020/10/18 - Updates:
 - Formatting of all written materials
 - Additional scenes (from 12 to about 37)
 - Additional assets (characters, vehicles, mechs)
 - All images converted to *.webp
-v.3. - 2025
+v03 - 2021/12/29
+- Update for FoundryVTT v0.9.x
+v2025.2 - 2025/02/18
 - updated to Ultramodern5 OGL/SRD(2.0)
 
 ## Software Versions & Module Incompatibilities
