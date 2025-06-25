@@ -10,11 +10,11 @@
       "flags": {}
     }
   ],
-  "version": "2.26",
+  "version": "2.30",
   "compatibility": {
     "minimum": "11",
-    "verified": "12",
-    "maximum": "12"
+    "verified": "13",
+    "maximum": "13"
   },
   "socket": true,
   "media": [
@@ -41,8 +41,8 @@
         "type": "system",
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
-          "minimum": "3",
-          "verified": "4.3.2"
+          "minimum": "4",
+          "verified": "5"
         }
       }
     ]
@@ -229,6 +229,17 @@
       "label": "Modern Locations (UM5)",
       "path": "packs/modern-locations",
       "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cybernetics-um5",
+      "label": "Cybernetics (UM5)",
+      "path": "packs/cybernetics-um5",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -294,18 +305,19 @@
           "sorting": "m",
           "color": "#6f7269",
           "packs": [
+            "cybernetics-um5",
             "um5-equipment",
             "um5-vehicles",
             "um5-mechs"
           ],
           "folders": []
-        }        
+        }
       ]
     }
   ],
- "url": "https://restenford.com/",
+  "url": "https://restenford.com/",
   "manifest": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json",
-  "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v2025.02/UM5-Ultramodern5-OGL.zip",
+  "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v2.30/UM5-Ultramodern5-OGL.zip",
   "changelog": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/changelog.md",
   "bugs": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/issues"
 }
