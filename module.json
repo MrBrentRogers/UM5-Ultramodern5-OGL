@@ -10,12 +10,15 @@
       "flags": {}
     }
   ],
-  "version": "2.30",
+  "version": "2.32",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "13",
     "verified": "13",
     "maximum": "13"
   },
+   "esmodules": [
+    "./scripts/gameSettings.js"
+   ],
   "socket": true,
   "media": [
     {
