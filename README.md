@@ -43,7 +43,8 @@ v03 - 2021/12/29
 - Update for FoundryVTT v0.9.x
 v2025.2 - 2025/02/18
 - updated to Ultramodern5 OGL/SRD(2.0)
-v03.
+v03.08 - 2025/08/23
+- created Settings ability to turn certain things on/off. Additional icons and images.
 
 ## Software Versions & Module Incompatibilities
 <b>Foundry VTT:</b> 13.346<br>
