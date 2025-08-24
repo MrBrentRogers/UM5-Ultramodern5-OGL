@@ -12,13 +12,13 @@
   ],
   "version": "2.32",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13",
+    "minimum": "12",
+    "verified": "12",
     "maximum": "13"
   },
-   "esmodules": [
-    "./scripts/gameSettings.js"
-   ],
+  "esmodules": [
+    "scripts/gameSettings.js"
+  ],
   "socket": true,
   "media": [
     {
@@ -243,11 +243,11 @@
       "label": "Cybernetics (UM5)",
       "path": "packs/cybernetics-um5",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ],
   "packFolders": [
@@ -318,7 +318,7 @@
       ]
     }
   ],
-  "url": "https://restenford.com/",
+  "url": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL",
   "manifest": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/module.json",
   "download": "https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL/releases/download/v2.30/UM5-Ultramodern5-OGL.zip",
   "changelog": "https://raw.githubusercontent.com/MrBrentRogers/UM5-Ultramodern5-OGL/master/changelog.md",
