@@ -1,22 +1,22 @@
 Hooks.on("init", () => {
   /**Register Settings */
   game.settings.register("UM5-Ultramodern5-OGL", "um5-vigor", {
-    name: "Vigor(VIG) Ability and Skills",
-    hint: "Vigor is a separate ability score to enable a wider variety of supernatural characters. Also adds following skills: Commune, Detection, Induce.",
+    name: "Vigor(vig) Ability and Skills",
+    hint: "Vigor is a separate ability score to enable a wider variety of supernatural characters. Also adds following Vigor skills: Commune, Detection, Induce.",
     scope: "world",
     config: true,
     default: false,
     type: Boolean,
   });
   game.settings.register("UM5-Ultramodern5-OGL", "um5-skills", {
-    name: "UM5 Skills",
-    hint: "The UM5 Skills of Computer Use(INT), Engineering(INT), Science(INT), and Demolitions(INT).",
+    name: "UM5 Intelligence Skills",
+    hint: "The UM5 Intelligence Skills of Computer Use(cmp), Engineering(eng), Science(sci), and Demolitions(dem). Disabling the skills also disabled embeded usage of skills.",
     scope: "world",
     config: true,
     default: true,
     type: Boolean,
   });
-//The following not working as of DnD5e v5, FVTT v13
+//The following does NOT work as of DnD5e v5.x.x, FVTT v13.xxx
 //  game.settings.register("UM5-Ultramodern5-OGL", "UM5ActorSizes", {
 //    name: "Larger Actor Sizes",
 //    hint: "Additional sizes of Colossal(5), Immense(6), Titanic(7), City(8), Planetary(9), Cosmic(10)",
