@@ -1,7 +1,7 @@
-2025/11/24-17:31:11.066 2d5c Recovering log #927
-2025/11/24-17:31:11.071 2d5c Delete type=0 #927
-2025/11/24-17:31:11.071 2d5c Delete type=3 #925
-2025/11/24-17:32:40.325 4e84 Level-0 table #932: started
-2025/11/24-17:32:40.325 4e84 Level-0 table #932: 0 bytes OK
-2025/11/24-17:32:40.326 4e84 Delete type=0 #930
-2025/11/24-17:32:40.326 4e84 Manual compaction at level-0 from '!actors!1uNZSk6Pc6xDlHoE' @ 72057594037927935 : 1 .. '!folders!nawMvicKGvig3CCP' @ 0 : 0; will stop at (end)
+2025/11/30-11:27:16.200 510c Recovering log #1010
+2025/11/30-11:27:16.204 510c Delete type=0 #1010
+2025/11/30-11:27:16.205 510c Delete type=3 #1008
+2025/12/01-14:24:52.920 4c08 Level-0 table #1015: started
+2025/12/01-14:24:52.921 4c08 Level-0 table #1015: 0 bytes OK
+2025/12/01-14:24:52.922 4c08 Delete type=0 #1013
+2025/12/01-14:24:52.926 4c08 Manual compaction at level-0 from '!actors!1uNZSk6Pc6xDlHoE' @ 72057594037927935 : 1 .. '!folders!nawMvicKGvig3CCP' @ 0 : 0; will stop at (end)
