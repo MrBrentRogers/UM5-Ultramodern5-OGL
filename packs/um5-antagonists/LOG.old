@@ -1,7 +1,16 @@
-2025/11/30-11:27:16.200 510c Recovering log #1010
-2025/11/30-11:27:16.204 510c Delete type=0 #1010
-2025/11/30-11:27:16.205 510c Delete type=3 #1008
-2025/12/01-14:24:52.920 4c08 Level-0 table #1015: started
-2025/12/01-14:24:52.921 4c08 Level-0 table #1015: 0 bytes OK
-2025/12/01-14:24:52.922 4c08 Delete type=0 #1013
-2025/12/01-14:24:52.926 4c08 Manual compaction at level-0 from '!actors!1uNZSk6Pc6xDlHoE' @ 72057594037927935 : 1 .. '!folders!nawMvicKGvig3CCP' @ 0 : 0; will stop at (end)
+2025/12/06-17:17:56.754 3c4c Recovering log #1020
+2025/12/06-17:17:56.755 3c4c Level-0 table #1022: started
+2025/12/06-17:17:56.758 3c4c Level-0 table #1022: 25515 bytes OK
+2025/12/06-17:17:56.764 3c4c Delete type=0 #1020
+2025/12/06-17:17:56.764 3c4c Delete type=3 #1018
+2025/12/06-17:17:58.535 3d1c Compacting 2@0 + 1@1 files
+2025/12/06-17:17:58.572 3d1c Generated table #1024@0: 798 keys, 1019151 bytes
+2025/12/06-17:17:58.572 3d1c Compacted 2@0 + 1@1 files => 1019151 bytes
+2025/12/06-17:17:58.573 3d1c compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/12/06-17:17:58.574 3d1c Delete type=2 #959
+2025/12/06-17:17:58.575 3d1c Delete type=2 #1019
+2025/12/06-17:17:58.576 3d1c Delete type=2 #1022
+2025/12/06-17:20:22.890 3d1c Level-0 table #1026: started
+2025/12/06-17:20:22.890 3d1c Level-0 table #1026: 0 bytes OK
+2025/12/06-17:20:22.891 3d1c Delete type=0 #1023
+2025/12/06-17:20:22.894 3d1c Manual compaction at level-0 from '!actors!1UdJhjTpxmP4yH1t' @ 72057594037927935 : 1 .. '!folders!nawMvicKGvig3CCP' @ 0 : 0; will stop at (end)

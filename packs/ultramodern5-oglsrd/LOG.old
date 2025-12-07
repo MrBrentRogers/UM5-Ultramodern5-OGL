@@ -1,18 +1,16 @@
-2025/11/30-11:27:16.236 57e4 Recovering log #970
-2025/11/30-11:27:16.241 57e4 Delete type=0 #970
-2025/11/30-11:27:16.241 57e4 Delete type=3 #968
-2025/11/30-18:46:34.179 4c08 Level-0 table #975: started
-2025/11/30-18:46:34.228 4c08 Level-0 table #975: 1835094 bytes OK
-2025/11/30-18:46:34.232 4c08 Delete type=0 #973
-2025/12/01-14:24:53.249 4c08 Level-0 table #977: started
-2025/12/01-14:24:53.295 4c08 Level-0 table #977: 560927 bytes OK
-2025/12/01-14:24:53.297 4c08 Delete type=0 #974
-2025/12/01-14:24:53.299 4c08 Manual compaction at level-0 from '!folders!G5oYE4gf5WBaYlAo' @ 72057594037927935 : 1 .. '!journal.pages!wjqWO7Ghy6VtY2lQ.wrlptniwbN6LmNIC' @ 0 : 0; will stop at '!journal.pages!kymLTsan7O1n6tgZ.srH0gOIL36UMdz6u' @ 23036 : 1
-2025/12/01-14:24:53.299 4c08 Compacting 2@0 + 1@1 files
-2025/12/01-14:24:53.343 4c08 Generated table #978@0: 338 keys, 866291 bytes
-2025/12/01-14:24:53.343 4c08 Compacted 2@0 + 1@1 files => 866291 bytes
-2025/12/01-14:24:53.344 4c08 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/12/01-14:24:53.345 4c08 Delete type=2 #959
-2025/12/01-14:24:53.346 4c08 Delete type=2 #975
-2025/12/01-14:24:53.347 4c08 Delete type=2 #977
-2025/12/01-14:24:53.347 4c08 Manual compaction at level-0 from '!journal.pages!kymLTsan7O1n6tgZ.srH0gOIL36UMdz6u' @ 23036 : 1 .. '!journal.pages!wjqWO7Ghy6VtY2lQ.wrlptniwbN6LmNIC' @ 0 : 0; will stop at (end)
+2025/12/06-17:17:56.947 5bc Recovering log #983
+2025/12/06-17:17:56.959 5bc Level-0 table #986: started
+2025/12/06-17:17:56.993 5bc Level-0 table #986: 1537315 bytes OK
+2025/12/06-17:17:56.998 5bc Delete type=0 #983
+2025/12/06-17:17:56.999 5bc Delete type=3 #981
+2025/12/06-17:17:58.585 3d1c Compacting 2@0 + 1@1 files
+2025/12/06-17:17:58.627 3d1c Generated table #988@0: 396 keys, 967559 bytes
+2025/12/06-17:17:58.627 3d1c Compacted 2@0 + 1@1 files => 967559 bytes
+2025/12/06-17:17:58.628 3d1c compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/12/06-17:17:58.628 3d1c Delete type=2 #978
+2025/12/06-17:17:58.629 3d1c Delete type=2 #984
+2025/12/06-17:17:58.630 3d1c Delete type=2 #986
+2025/12/06-17:20:22.897 3d1c Level-0 table #990: started
+2025/12/06-17:20:22.897 3d1c Level-0 table #990: 0 bytes OK
+2025/12/06-17:20:22.898 3d1c Delete type=0 #987
+2025/12/06-17:20:22.901 3d1c Manual compaction at level-0 from '!folders!G5oYE4gf5WBaYlAo' @ 72057594037927935 : 1 .. '!journal.pages!wjqWO7Ghy6VtY2lQ.wrlptniwbN6LmNIC' @ 0 : 0; will stop at (end)

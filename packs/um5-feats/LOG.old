@@ -1,7 +1,7 @@
-2025/11/30-11:27:16.039 510c Recovering log #983
-2025/11/30-11:27:16.044 510c Delete type=0 #983
-2025/11/30-11:27:16.044 510c Delete type=3 #981
-2025/12/01-14:24:52.715 4c08 Level-0 table #988: started
-2025/12/01-14:24:52.716 4c08 Level-0 table #988: 0 bytes OK
-2025/12/01-14:24:52.717 4c08 Delete type=0 #986
-2025/12/01-14:24:52.721 4c08 Manual compaction at level-0 from '!folders!JIwokWO6g5EiqaXv' @ 72057594037927935 : 1 .. '!items!zgDOqvRDY2q8gyvw' @ 0 : 0; will stop at (end)
+2025/12/06-17:17:56.317 3c4c Recovering log #992
+2025/12/06-17:17:56.321 3c4c Delete type=0 #992
+2025/12/06-17:17:56.321 3c4c Delete type=3 #991
+2025/12/06-17:20:22.875 3d1c Level-0 table #996: started
+2025/12/06-17:20:22.875 3d1c Level-0 table #996: 0 bytes OK
+2025/12/06-17:20:22.876 3d1c Delete type=0 #994
+2025/12/06-17:20:22.880 3d1c Manual compaction at level-0 from '!folders!JIwokWO6g5EiqaXv' @ 72057594037927935 : 1 .. '!items!zgDOqvRDY2q8gyvw' @ 0 : 0; will stop at (end)
