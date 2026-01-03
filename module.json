@@ -151,17 +151,6 @@
       }
     },
     {
-      "name": "um5-mechs",
-      "label": "Exo-Armor (Mechs)(UM5)",
-      "path": "packs/um5-mechs",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "um5-characters",
       "label": "Characters (UM5)",
       "path": "packs/um5-characters",
@@ -254,6 +243,17 @@
       "label": "Origin (Species) (UM5)",
       "path": "packs/um5-origin",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vehicle-equip",
+      "label": "Vehicle Equipment (UM5)",
+      "path": "packs/vehicle-equip",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -323,7 +323,7 @@
             "cybernetics-um5",
             "um5-equipment",
             "um5-vehicles",
-            "um5-mechs"
+            "vehicle-equip"
           ],
           "folders": []
         }

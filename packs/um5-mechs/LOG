@@ -1,7 +1,0 @@
-2025/12/28-17:06:05.672 9f2c Recovering log #1140
-2025/12/28-17:06:05.678 9f2c Delete type=0 #1140
-2025/12/28-17:06:05.678 9f2c Delete type=3 #1138
-2025/12/29-19:38:06.638 918 Level-0 table #1145: started
-2025/12/29-19:38:06.638 918 Level-0 table #1145: 0 bytes OK
-2025/12/29-19:38:06.641 918 Delete type=0 #1143
-2025/12/29-19:38:06.650 918 Manual compaction at level-0 from '!actors!8RdLGc65B7G69hdx' @ 72057594037927935 : 1 .. '!folders!UH4KllCajnGMCCPj' @ 0 : 0; will stop at (end)
