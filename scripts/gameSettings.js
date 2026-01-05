@@ -1,4 +1,4 @@
-Hooks.on("init", () => {
+Hooks.once("init", () => {
   const applications = game.dnd5e.applications;
   /**Register Settings */
   game.settings.register("UM5-Ultramodern5-OGL", "um5-vigor", {
@@ -10,6 +10,46 @@ Hooks.on("init", () => {
     type: Boolean,
     requiresReload: true,
   });
+  if (game.settings.get("UM5-Ultramodern5-OGL", "um5-vigor")) {
+    foundry.utils.mergeObject(CONFIG.DND5E.abilities, {
+      vig: {
+        label: "Vigor",
+        abbreviation: "vig",
+        fullKey: "vigor", // Full key used in enrichers
+        reference:
+          "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.S4DPrd0QJyOoflBd.JournalEntryPage.uRMuUneBs7ZOozA6", // UUID of journal entry page for rich tooltips
+        type: "mental", // mental or physical
+        defaults: { vehicle: 0 }, // Optional
+        improvement: true, // Explicitly set this to 'false' to prevent it showing up for ASIs.
+      },
+    });
+    foundry.utils.mergeObject(CONFIG.DND5E.skills, {
+      com: {
+        label: "Commune",
+        ability: "vig",
+        fullKey: "commune", // Full key used in enrichers
+        reference:
+          "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.S4DPrd0QJyOoflBd.JournalEntryPage.suLjP1oFQXwRhzTH", // UUID of journal entry page for rich tooltips
+        icon: "", // Icon used in favorites on new character sheet
+      },
+      det: {
+        label: "Detection",
+        ability: "vig",
+        fullKey: "detection", // Full key used in enrichers
+        reference:
+          "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.S4DPrd0QJyOoflBd.JournalEntryPage.UbyFLMYV2WG4COlD", // UUID of journal entry page for rich tooltips
+        icon: "", // Icon used in favorites on new character sheet
+      },
+      ind: {
+        label: "Induce",
+        ability: "vig",
+        fullKey: "induce", // Full key used in enrichers
+        reference:
+          "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.S4DPrd0QJyOoflBd.JournalEntryPage.rzsXMxkLlblt80dW", // UUID of journal entry page for rich tooltips
+        icon: "", // Icon used in favorites on new character sheet
+      },
+    });
+  }
   game.settings.register("UM5-Ultramodern5-OGL", "um5-skills", {
     name: "UM5 Intelligence Skills",
     hint: "The UM5 Intelligence Skills of Computer Use(cmp), Engineering(eng), Science(sci), and Demolitions(dem). Disabling the skills also disabled embeded usage of skills.",
@@ -19,6 +59,40 @@ Hooks.on("init", () => {
     type: Boolean,
     requiresReload: true,
   });
+  if (game.settings.get("UM5-Ultramodern5-OGL", "um5-skills")) {
+    CONFIG.DND5E.skills.cmp = {
+      label: "Computer Use",
+      ability: "int",
+      fullKey: "cmp", // Full key used in enrichers
+      reference:
+        "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.XS6Ras0JrAdEgJ6N.JournalEntryPage.poI498jI6ZyPmGD8", // UUID of journal entry page for rich tooltips
+      icon: "assets/Items/miscellaneous/laptop-computer.svg", // Icon used in favorites on new character sheet
+    };
+    CONFIG.DND5E.skills.dem = {
+      label: "Demolitions",
+      ability: "int",
+      fullKey: "dem",
+      reference:
+        "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.XS6Ras0JrAdEgJ6N.JournalEntryPage.RLaxTknh2K29UHhF",
+      icon: "assets/Items/weapons/grenade.svg",
+    };
+    CONFIG.DND5E.skills.eng = {
+      label: "Engineering",
+      ability: "int",
+      fullKey: "eng",
+      reference:
+        "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.XS6Ras0JrAdEgJ6N.JournalEntryPage.zTzjplFGyN1XJ2g3",
+      icon: "assets/Items/miscellaneous/laptop-computer.svg",
+    };
+    CONFIG.DND5E.skills.sci = {
+      label: "Science",
+      ability: "int",
+      fullKey: "sci",
+      reference:
+        "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.XS6Ras0JrAdEgJ6N.JournalEntryPage.cftrB9ukzeSI2Y76",
+      icon: ".../assets/Items/miscellaneous/laptop-computer.svg",
+    };
+  }
   game.settings.register("UM5-Ultramodern5-OGL", "um5ActorSizes", {
     name: "UM5 Creature Sizes",
     hint: "Tiny (0.5), Small & Medium (1), Large (2), Huge (3), Gargantuan (4), Colossal (5), Immense (6), Titanic (7), City (8), Planetary (9), Cosmic (10)",
@@ -28,6 +102,46 @@ Hooks.on("init", () => {
     type: Boolean,
     requiresReload: true,
   });
+  if (game.settings.get("UM5-Ultramodern5-OGL", "um5ActorSizes")) {
+    foundry.utils.mergeObject(CONFIG.DND5E.actorSizes, {
+      col: {
+        label: "Colossal",
+        abbreviation: "Col",
+        token: 5,
+        capacityMultiplier: 10,
+      },
+      imm: {
+        label: "Immense",
+        abbreviation: "Imm",
+        token: 6,
+        capacityMultiplier: 12,
+      },
+      tit: {
+        label: "Titanic",
+        abbreviation: "Tit",
+        token: 7,
+        capacityMultiplier: 14,
+      },
+      cit: {
+        label: "City",
+        abbreviation: "Col",
+        token: 8,
+        capacityMultiplier: 16,
+      },
+      pla: {
+        label: "Planetary",
+        abbreviation: "Pla",
+        token: 9,
+        capacityMultiplier: 18,
+      },
+      cos: {
+        label: "Cosmic",
+        abbreviation: "Cos",
+        token: 10,
+        capacityMultiplier: 20,
+      },
+    });
+  }
   game.settings.register("UM5-Ultramodern5-OGL", "um5credits", {
     name: "Credits($)",
     hint: "Adds Credits($) as currancy.",
@@ -37,6 +151,11 @@ Hooks.on("init", () => {
     type: Boolean,
     requiresReload: true,
   });
+  if (game.settings.get("UM5-Ultramodern5-OGL", "um5credits")) {
+    foundry.utils.mergeObject(CONFIG.DND5E.currencies, {
+      dol: { label: "Credits($)", abbreviation: "$", conversion: 1 },
+    });
+  }
   game.settings.register("UM5-Ultramodern5-OGL", "um5armor", {
     name: "UM5 Armor",
     hint: "Adds Exo-Armor's (Light, Medium, Heavy)",
@@ -46,6 +165,27 @@ Hooks.on("init", () => {
     type: Boolean,
     requiresReload: true,
   });
+  if (game.settings.get("UM5-Ultramodern5-OGL", "um5armor")) {
+    CONFIG.DND5E.armorProficiencies,
+    {
+      exo: "Exo-Armor",
+    };
+    CONFIG.DND5E.armorTypes,
+    {
+      exl: "Exo-Armor Light",
+      exm: "Exo-Armor Medium",
+      exh: "Exo-Armor Heavy",
+      amo: "Armor Mod",
+    };
+    CONFIG.DND5E.equipmentTypes,
+    {
+      exl: "Exo-Armor Light",
+      exm: "Exo-Armor Medium",
+      exh: "Exo-Armor Heavy",
+      cybernetics: "Cybernetics",
+      amo: "Armor Modifications",
+    };
+  }
   game.settings.register("UM5-Ultramodern5-OGL", "um5weapons", {
     name: "UM5 Weapon Proficiencies",
     hint: "Adds Ultramodern5 Weapons.",
@@ -55,199 +195,6 @@ Hooks.on("init", () => {
     type: Boolean,
     requiresReload: true,
   });
-  game.settings.register("UM5-Ultramodern5-OGL", "um5languages0", {
-    name: "Languages, Remove D&D standard",
-    hint: "Removes D&D5e Languages (except Common).",
-    scope: "world",
-    config: true,
-    default: false,
-    type: Boolean,
-    requiresReload: true,
-  });
-  game.settings.register("UM5-Ultramodern5-OGL", "um5languages1", {
-    name: "Languages: Terran",
-    hint: "Adds Earth Languages (English, Chinese, Spanish, etc.).",
-    scope: "world",
-    config: true,
-    default: true,
-    type: Boolean,
-    requiresReload: true,
-  });
-  game.settings.register("UM5-Ultramodern5-OGL", "um5languages2", {
-    name: "Languages: Threshold",
-    hint: "Adds Threshold Languages.",
-    scope: "world",
-    config: true,
-    default: false,
-    type: Boolean,
-    requiresReload: true,
-  });
-  game.settings.register("UM5-Ultramodern5-OGL", "um5languages3", {
-    name: "Languages: Amethyst",
-    hint: "Adds Amethyst Languages.",
-    scope: "world",
-    config: true,
-    default: false,
-    type: Boolean,
-    requiresReload: true,
-  });
-  game.settings.register("UM5-Ultramodern5-OGL", "um5tools", {
-    name: "UM5 Tool Proficincies",
-    hint: "Additional Tool Proficincies of Medical Kit, Engineering Kit, Drug Kit, & Boardgame Gaming Set.",
-    scope: "world",
-    config: true,
-    default: true,
-    type: Boolean,
-    requiresReload: true,
-  });
-  Hooks.on("setup", () => {
-    /** Conditionals */
-    if (game.settings.get("UM5-Ultramodern5-OGL", "um5-vigor")) {
-      foundry.utils.mergeObject(CONFIG.DND5E.abilities, {
-        vig: {
-          label: "Vigor",
-          abbreviation: "vig",
-          fullKey: "vigor", // Full key used in enrichers
-          reference:
-            "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.S4DPrd0QJyOoflBd.JournalEntryPage.uRMuUneBs7ZOozA6", // UUID of journal entry page for rich tooltips
-          type: "mental", // mental or physical
-          defaults: { vehicle: 0 }, // Optional
-          improvement: true, // Explicitly set this to 'false' to prevent it showing up for ASIs.
-        },
-      });
-      foundry.utils.mergeObject(CONFIG.DND5E.skills, {
-        com: {
-          label: "Commune",
-          ability: "vig",
-          fullKey: "commune", // Full key used in enrichers
-          reference:
-            "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.S4DPrd0QJyOoflBd.JournalEntryPage.suLjP1oFQXwRhzTH", // UUID of journal entry page for rich tooltips
-          icon: "", // Icon used in favorites on new character sheet
-        },
-        det: {
-          label: "Detection",
-          ability: "vig",
-          fullKey: "detection", // Full key used in enrichers
-          reference:
-            "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.S4DPrd0QJyOoflBd.JournalEntryPage.UbyFLMYV2WG4COlD", // UUID of journal entry page for rich tooltips
-          icon: "", // Icon used in favorites on new character sheet
-        },
-        ind: {
-          label: "Induce",
-          ability: "vig",
-          fullKey: "induce", // Full key used in enrichers
-          reference:
-            "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.S4DPrd0QJyOoflBd.JournalEntryPage.rzsXMxkLlblt80dW", // UUID of journal entry page for rich tooltips
-          icon: "", // Icon used in favorites on new character sheet
-        },
-      });
-    }
-    if (game.settings.get("UM5-Ultramodern5-OGL", "um5-skills")) {
-      CONFIG.DND5E.skills.cmp = {
-        label: "Computer Use",
-        ability: "int",
-        fullKey: "cmp", // Full key used in enrichers
-        reference:
-          "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.XS6Ras0JrAdEgJ6N.JournalEntryPage.poI498jI6ZyPmGD8", // UUID of journal entry page for rich tooltips
-        icon: "assets/Items/miscellaneous/laptop-computer.svg", // Icon used in favorites on new character sheet
-      };
-      CONFIG.DND5E.skills.dem = {
-        label: "Demolitions",
-        ability: "int",
-        fullKey: "dem",
-        reference:
-          "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.XS6Ras0JrAdEgJ6N.JournalEntryPage.RLaxTknh2K29UHhF",
-        icon: "assets/Items/weapons/grenade.svg",
-      };
-      CONFIG.DND5E.skills.eng = {
-        label: "Engineering",
-        ability: "int",
-        fullKey: "eng",
-        reference:
-          "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.XS6Ras0JrAdEgJ6N.JournalEntryPage.zTzjplFGyN1XJ2g3",
-        icon: "assets/Items/miscellaneous/laptop-computer.svg",
-      };
-      CONFIG.DND5E.skills.sci = {
-        label: "Science",
-        ability: "int",
-        fullKey: "sci",
-        reference:
-          "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.XS6Ras0JrAdEgJ6N.JournalEntryPage.cftrB9ukzeSI2Y76",
-        icon: ".../assets/Items/miscellaneous/laptop-computer.svg",
-      };
-    }
-  });
-  if (game.settings.get("UM5-Ultramodern5-OGL", "um5ActorSizes")) {
-    foundry.utils.mergeObject(CONFIG.DND5E.actorSizes, {
-      col: {
-        label: "Colossal",
-        abbreviation: "Col",
-        token: 5,
-        capacityMultiplier: 10,
-      },
-
-      imm: {
-        label: "Immense",
-        abbreviation: "Imm",
-        token: 6,
-        capacityMultiplier: 12,
-      },
-
-      tit: {
-        label: "Titanic",
-        abbreviation: "Tit",
-        token: 7,
-        capacityMultiplier: 14,
-      },
-
-      cit: {
-        label: "City",
-        abbreviation: "Col",
-        token: 8,
-        capacityMultiplier: 16,
-      },
-
-      pla: {
-        label: "Planetary",
-        abbreviation: "Pla",
-        token: 9,
-        capacityMultiplier: 18,
-      },
-
-      cos: {
-        label: "Cosmic",
-        abbreviation: "Cos",
-        token: 10,
-        capacityMultiplier: 20,
-      },
-    });
-  }
-  if (game.settings.get("UM5-Ultramodern5-OGL", "um5credits")) {
-    foundry.utils.mergeObject(CONFIG.DND5E.currencies, {
-      dol: { label: "Credits($)", abbreviation: "$", conversion: 1 },
-    });
-  }
-  if (game.settings.get("UM5-Ultramodern5-OGL", "um5armor")) {
-    CONFIG.DND5E.armorProficiencies,
-      {
-        exo: "Exo-Armor",
-      };
-    CONFIG.DND5E.armorTypes,
-      {
-        exl: "Exo-Armor Light",
-        exm: "Exo-Armor Medium",
-        exh: "Exo-Armor Heavy",
-        amo: "Armor Mod",
-      };
-    CONFIG.DND5E.equipmentTypes,
-      {
-        exl: "Exo-Armor Light",
-        exm: "Exo-Armor Medium",
-        exh: "Exo-Armor Heavy",
-        cybernetics: "Cybernetics",
-        amo: "Armor Modifications",
-      };
-  }
   if (game.settings.get("UM5-Ultramodern5-OGL", "um5weapons")) {
     foundry.utils.mergeObject(CONFIG.DND5E.weaponProficiencies, {
       sao: "Small Arms, One-Handed",
@@ -349,7 +296,7 @@ Hooks.on("init", () => {
         reference:
           "Compendium.UM5-Ultramodern5-OGL.ultramodern5-oglsrd.JournalEntry.5FyOxFyQzDSenBE5.JournalEntryPage.11keqwxhMSAkl2eY",
       },
-          ftf: {
+      ftf: {
         label: "FTF (Failed To Fire)",
         isPhysical: "false",
         reference:
@@ -483,6 +430,15 @@ Hooks.on("init", () => {
       .add("spp")
       .add("undermount");
   }
+  game.settings.register("UM5-Ultramodern5-OGL", "um5languages0", {
+    name: "Languages, Remove D&D standard",
+    hint: "Removes D&D5e Languages (except Common).",
+    scope: "world",
+    config: true,
+    default: false,
+    type: Boolean,
+    requiresReload: true,
+  });
   if (game.settings.get("UM5-Ultramodern5-OGL", "um5languages0")) {
     delete CONFIG.DND5E.languages.standard.children.draconic;
     delete CONFIG.DND5E.languages.standard.children.dwarvish;
@@ -505,6 +461,15 @@ Hooks.on("init", () => {
     delete CONFIG.DND5E.languages.exotic.children.cant;
     delete CONFIG.DND5E.languages.exotic.children.undercommon;
   }
+  game.settings.register("UM5-Ultramodern5-OGL", "um5languages1", {
+    name: "Languages: Terran",
+    hint: "Adds Earth Languages (English, Chinese, Spanish, etc.).",
+    scope: "world",
+    config: true,
+    default: true,
+    type: Boolean,
+    requiresReload: true,
+  });
   if (game.settings.get("UM5-Ultramodern5-OGL", "um5languages1")) {
     CONFIG.DND5E.languages.standard.children.earth = {
       label: "Earth (Terran)",
@@ -537,6 +502,15 @@ Hooks.on("init", () => {
       },
     };
   }
+  game.settings.register("UM5-Ultramodern5-OGL", "um5languages2", {
+    name: "Languages: Threshold",
+    hint: "Adds Threshold Languages.",
+    scope: "world",
+    config: true,
+    default: false,
+    type: Boolean,
+    requiresReload: true,
+  });
   if (game.settings.get("UM5-Ultramodern5-OGL", "um5languages2")) {
     CONFIG.DND5E.languages.standard.children.threshold = {
       label: "Threshold Languages",
@@ -555,6 +529,15 @@ Hooks.on("init", () => {
       },
     };
   }
+  game.settings.register("UM5-Ultramodern5-OGL", "um5languages3", {
+    name: "Languages: Amethyst",
+    hint: "Adds Amethyst Languages.",
+    scope: "world",
+    config: true,
+    default: false,
+    type: Boolean,
+    requiresReload: true,
+  });
   if (game.settings.get("UM5-Ultramodern5-OGL", "um5languages2")) {
     CONFIG.DND5E.languages.standard.children.amethyst = {
       label: "Amethyst Languages",
@@ -582,6 +565,15 @@ Hooks.on("init", () => {
       },
     };
   }
+  game.settings.register("UM5-Ultramodern5-OGL", "um5tools", {
+    name: "UM5 Tool Proficincies",
+    hint: "Additional Tool Proficincies of Medical Kit, Engineering Kit, Drug Kit, & Boardgame Gaming Set.",
+    scope: "world",
+    config: true,
+    default: true,
+    type: Boolean,
+    requiresReload: true,
+  });
   if (game.settings.get("UM5-Ultramodern5-OGL", "um5tools")) {
     CONFIG.DND5E.tools.medicalkit = {
       ability: "int",
@@ -595,9 +587,9 @@ Hooks.on("init", () => {
       ability: "int",
       id: "Compendium.UM5-Ultramodern5-OGL.um5-equipment.Item.LxRVdhqDfhNhWLub",
     };
-        CONFIG.DND5E.tools.boardgame = {
+    CONFIG.DND5E.tools.boardgame = {
       ability: "int",
       id: "Compendium.UM5-Ultramodern5-OGL.um5-equipment.Item.Upby8EwAxTQY92nf",
     };
-  }
+  };
 });
