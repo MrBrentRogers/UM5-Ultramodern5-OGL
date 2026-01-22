@@ -36,15 +36,26 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 
 ## Releases:
 UM5-v0.1 - 2020/08/27 - Initial release
+
 UM5-v0.2 - 2020/10/18 - Updates:
 - Formatting of all written materials
 - Additional scenes (from 12 to about 37)
 - Additional assets (characters, vehicles, mechs)
 - All images converted to *.webp
+
 v03 - 2021/12/29
 - Update for FoundryVTT v0.9.x
+
 v2025.2 - 2025/02/18
-- updated to Ultramodern5 OGL/SRD(2.0)
+- updated to Ultramodern5 OGL/SRD(2.0), FVTT v12, DnD5e v3
+
+v2.30 - 2025/06/24 - Icons, imgs, item fixes
+
+v2.40 - 2025/08/27 - combination of corrections and additions
+
+v2.43 - 2025/11/10 - Corrections to antagonists, some image corrections additions.
+
+v2.5 - 2026/01/21 - Setup for FVTT v13, DnD5e v5, addition of icons & imgs for additional DEM content (REDUX, Threshold, Bestiary, NeuroSpasta)
 
 ## Software Versions & Module Incompatibilities
 <b>Foundry VTT:</b> 12.331<br>
